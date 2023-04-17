@@ -1,1 +1,14 @@
+1. If I choose "No", message frame show "No" by default
+2. 
+- I modify a litle on ' int option' part by adding 'JOptionPane.YES_NO_OPTION' 
 
+import javax.swing.JOptionPane;
+public class ChoosingOption{
+    public static void main(String[] args){
+        int option  = JOptionPane.showConfirmDialog(null, "Do you want to change to the first class ticket?", JOptionPane.YES_NO_OPTION);
+
+        JOptionPane.showMessageDialog(null, "You' ve chosen: " + (option == JOptionPane.YES_OPTION?"Yes": "No"));
+        System.exit(0);
+    }
+    
+}
