@@ -1,0 +1,6 @@
+Question 1:
+-	Encapsulating data: Accessor methods( getter and setter) can help to encapsulate the data within an object, make external code modify object’ s private attribute diffcultly. => maintain stablity of code. In this case, if another class want to access attribute of a class, they have to use getter and setter.
+-	If you do not want attributes of a class to be read – only, you can just use getter method.
+-	UI construction: One ramification of full field encapsulation is in user interface (UI) construction. If you can't use accessors, you can't have a UI builder class
+-	Providing a easily controlled interface: control how external code interacts with object, and give a easily-used  and clear interface for getting and setting property.
+-	Extend: Accessor method provide the way to extend of some attribute of a class without exposing the inter implememtation detail of that class.
