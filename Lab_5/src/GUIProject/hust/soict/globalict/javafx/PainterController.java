@@ -1,4 +1,4 @@
-package hust.soict.globalict.javafx1;
+package hust.soict.globalict.javafx;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
